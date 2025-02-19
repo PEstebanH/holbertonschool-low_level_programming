@@ -10,8 +10,8 @@
 int main(void)
 {
 	int number;
-	number = 48;
 
+	number = 48;
 	while (number <= 57)
 	{
 		putchar(number);
