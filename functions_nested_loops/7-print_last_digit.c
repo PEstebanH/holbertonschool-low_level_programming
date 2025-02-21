@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * print_last_digit - Entry point
+ * @lastdigit: the number to check
+ * Return: the value of the last digit
  */
 int print_last_digit(int lastdigit)
 {
-    lastdigit = lastdigit % 10;
-    if (lastdigit < 0)
-    {
-        lastdigit = lastdigit * -1;
-    }
-    _putchar(lastdigit + '0');
-    return (lastdigit);
+	lastdigit = lastdigit % 10;
+	if (lastdigit < 0)
+	{
+		lastdigit = lastdigit * -1;
+	}
+	_putchar(lastdigit + '0');
+	return (lastdigit);
 }
