@@ -11,15 +11,13 @@
     if (i < 98)
     {
         for (; i < 98; i++)
-        {
             printf("%d, ", i);
-        }
     }
-    else
+    else if (i > 98)
     {
         for (; i > 98; i--)
-        {
             printf("%d, ", i);
-        }
     }
+    if (i == 98)
+        printf("%d\n", i);
 }
