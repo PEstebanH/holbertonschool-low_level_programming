@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+void _islower(int c);
+{
+    int _islower(int c);
+    {
+        if (c >= 'a' && c <= 'z')
+        {
+            return (1);
+        }
+        else
+        {
+            return (0);
+        }
+    }
+}
