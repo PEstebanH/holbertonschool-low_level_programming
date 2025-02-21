@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * add - adds two integers
+ * @a: first integer
+ * @b: second integer
+ * Return: the result of the addition
  */
 
- int add (int a, int b)
- {
-     return a + b;
- }
+int add(int a, int b)
+{
+	return (a + b);
+}
